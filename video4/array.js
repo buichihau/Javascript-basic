@@ -29,6 +29,4 @@ let c = [
 ];
 
 console.log('family:', c);
-console.log('family:', c);
-chang
-chang
+
