@@ -11,3 +11,18 @@ let filter = arr.filter((item, index) => {
 
 console.log(filter);
 
+let arr2 = [
+    {name: 'A', age: 25},
+    {name: 'B', age: 29},
+    {name: 'C', age: 25},
+    {name: 'D', age: 24},
+    {name: 'E', age: 22},
+]
+
+let find = arr2.find((item, index) => {
+    
+    return item && item.age === 25;
+});
+
+console.log(find);
+
